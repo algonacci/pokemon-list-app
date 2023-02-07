@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pokemon_list_app/fetch_data.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
           primary: Colors.cyan,
         ),
       ),
-      home: const FetchData(),
+      home: Container(),
     );
   }
 }
